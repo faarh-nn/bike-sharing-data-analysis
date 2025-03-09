@@ -62,7 +62,7 @@ min_date_hour = hours_df["dteday"].min()
 max_date_hour = hours_df["dteday"].max()
 
 with st.sidebar:
-    st.image("logo.png", width=150)
+    st.image("https://github.com/faarh-nn/bike-sharing-data-analysis/blob/main/dashboard/logo.png?raw=true", width=150)
 
     # Mengambil start_date & end_date dari date_input
     date_input = st.date_input(
